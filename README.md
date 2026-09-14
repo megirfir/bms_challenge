@@ -382,9 +382,7 @@ Important limitations include:
 
 ## Project Structure
 
-The implementation is contained in the linked GitHub repository:
-
-**[github.com/megirfir/bms_challenge](https://github.com/megirfir/bms_challenge)**
+The implementation is contained in this repo
 
 The code implements:
 
