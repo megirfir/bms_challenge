@@ -211,7 +211,7 @@ void Iter(void)
     if (valid_cells == 0) raw |= F_IMPL;
 
     if (isense_fresh && current_ma > I_MAX_MA) raw |= F_OC;
-    if (!isense_fresh) raw |= F_ISENSE;
+    if (isense_ever && !isense_fresh) raw |= F_ISENSE;
 
     /* --- debounce --- */
     active = 0;
